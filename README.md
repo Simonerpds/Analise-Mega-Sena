@@ -1,45 +1,49 @@
-Análise dos Sorteios da Mega Sena
+# 📊 Análise dos Sorteios da Mega-Sena
 
-Este projeto realiza uma análise exploratória dos sorteios da Mega Sena, utilizando Python e a biblioteca Pandas. O objetivo é identificar padrões, estatísticas e curiosidades nos números sorteados ao longo do tempo.
+Este projeto realiza uma análise exploratória dos sorteios da Mega-Sena, utilizando **Python** e a biblioteca **Pandas**. O objetivo é identificar padrões, estatísticas e curiosidades nos números sorteados ao longo do tempo.
 
-O conjunto de dados utilizado contém 2988 concursos, com informações sobre os números sorteados, vencedores e valores de prêmios.
+O conjunto de dados utilizado contém **2.988 concursos**, com informações sobre os números sorteados, vencedores e valores de prêmios.
 
-Funcionalidades
+---
+
+## 🔍 Funcionalidades
 
 O projeto inclui as seguintes análises:
 
-Números mais frequentes:
-Calcula quais números saíram mais vezes em todos os concursos.
-Exemplo de resultado: 10, 53, 37, 5, 34, 33.
-Números menos frequentes:
-Lista os números que apareceram menos vezes.
-Exemplo de resultado: 26, 21, 55, 22, 15, 31, 48, 3, 12, 7.
-Distribuição pares x ímpares:
-Conta quantos números pares e ímpares já foram sorteados.
-Exemplo de resultado: Pares: 9003, Ímpares: 8925.
-Espaçamento entre números consecutivos:
-Calcula a diferença entre os números sorteados de um concurso para o outro.
-Analisa padrões e frequências de espaçamento.
-Padrões de espaçamento repetidos:
-Identifica sequências de diferenças entre concursos que se repetem.
-Útil para análise de padrões raros ou curiosos.
-Número que mais saiu por posição:
-Analisa qual número apareceu com mais frequência em cada posição (Bola1, Bola2, …, Bola6).
-Números que nunca foram sorteados:
-Verifica se existem números que nunca saíram em nenhum sorteio.
-Resultado atual: todos os números de 1 a 60 já foram sorteados pelo menos uma vez.
-Média dos números sorteados:
-Calcula a média dos números de cada sorteio e a média geral de todos os concursos.
-Resultado: Média geral dos números sorteados: 30.53.
+* **Números mais frequentes:** identifica quais números saíram mais vezes
+  *Exemplo:* 10, 53, 37, 5, 34, 33
 
-Tecnologias Utilizadas
+* **Números menos frequentes:** mostra os números que menos apareceram
+  *Exemplo:* 26, 21, 55, 22, 15, 31, 48, 3, 12, 7
 
-Python 3
-Pandas para manipulação e análise de dados
-Excel como fonte dos dados (Mega-Sena.xlsx)
+* **Distribuição pares x ímpares:** contabiliza a quantidade de números pares e ímpares sorteados
+  *Exemplo:* Pares: 9003 | Ímpares: 8925
 
-Estrutura do Projeto
+* **Espaçamento entre números consecutivos:** calcula a diferença entre números dentro de cada sorteio
 
+* **Padrões de espaçamento repetidos:** identifica padrões que se repetem ao longo dos concursos
+
+* **Número mais frequente por posição:** analisa qual número aparece mais em cada posição (Bola1 a Bola6)
+
+* **Números que nunca foram sorteados:**
+  ✔ Resultado: todos os números de 1 a 60 já foram sorteados pelo menos uma vez
+
+* **Média dos números sorteados:** calcula a média por concurso e a média geral
+  ✔ Resultado: média geral = **30,53**
+
+---
+
+## 🛠️ Tecnologias utilizadas
+
+* Python 3
+* Pandas (análise de dados)
+* Excel (fonte dos dados)
+
+---
+
+## 📁 Estrutura do projeto
+
+```
 Analise-Mega-Sena/
 │
 ├── data/
@@ -49,7 +53,25 @@ Analise-Mega-Sena/
 │   └── Mega_Sena.ipynb
 │
 ├── README.md
+```
 
-Conclusão
+---
 
-Este projeto oferece uma visão estatística e detalhada dos resultados da Mega Sena, permitindo identificar tendências, números mais e menos frequentes, padrões de espaçamento e outros insights interessantes para curiosos e entusiastas de loterias.
+## 📈 Conclusão
+
+Este projeto oferece uma visão estatística dos resultados da Mega-Sena, permitindo identificar:
+
+* Tendências nos sorteios
+* Números mais e menos frequentes
+* Padrões de distribuição e espaçamento
+
+Essas análises são úteis tanto para estudo de dados quanto para curiosidade sobre padrões em loterias.
+
+---
+
+## ⚠️ Observação
+
+Este projeto tem fins **educacionais e exploratórios**.
+Não é possível prever resultados futuros com base em dados passados de sorteios.
+
+---
