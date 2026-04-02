@@ -40,11 +40,15 @@ Excel como fonte dos dados (Mega-Sena.xlsx)
 
 Estrutura do Projeto
 
-Mega-Sena/
+Analise-Mega-Sena/
 │
-├─ Mega-Sena.xlsx          # Arquivo com os dados dos concursos
-├─ mega_sena_analysis.py   # Script com todas as análises
-└─ README.md               # Documentação do projeto
+├── data/
+│   └── Mega-Sena.xlsx
+│
+├── notebooks/
+│   └── Mega_Sena.ipynb
+│
+├── README.md
 
 Conclusão
 
